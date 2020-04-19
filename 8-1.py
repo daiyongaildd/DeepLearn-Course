@@ -7,6 +7,8 @@ y=[ 62.55, 82.42, 132.62, 73.31, 131.05, 86.57, 85.49, 127.44, 55.25, 104.84]
 a = tf.constant(x)
 b = tf.constant(y)
 
+
+
 total = tf.size(a)
 
 avg_x = tf.reduce_mean(a)
